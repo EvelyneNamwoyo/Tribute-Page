@@ -1,0 +1,53 @@
+main{
+    background-color: rgba(211, 206, 206, 0.726);
+    border-radius: 5px;
+    margin: 30px 10px;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+header{
+    text-align: center;
+}
+header #title{
+    font-size: 40px;
+    padding-top: 20px;
+}
+header p{
+    font-size: 20px;
+}
+#img-div{
+    text-align: center;
+    padding: 30px;
+    background-color: rgb(248, 248, 246);
+}
+#tribute-info ul{
+    margin: 30px 0;
+}
+#tribute-info li{
+    margin: 20px 0;
+}
+#tribute-info span{
+    font-weight: bold;
+}
+#tribute-info blockquote, #tribute-info cite {
+    margin: 20px 0;
+}
+#tribute-info blockquote {
+    padding: 30px 0 0;
+}
+#tribute-info{
+    padding: 30px 0;
+}
+#tribute-info h2{
+    text-align: center;
+}
+footer p{
+    text-align: center;
+}
+@media screen and (min-width:589px){
+    footer p{
+        padding: 0 20px;
+    }
+}
